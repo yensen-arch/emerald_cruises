@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "All-Inclusive Excellence",
-  description: "Enjoy a comprehensive travel experience with Emerald Cruises' all-inclusive offerings, encompassing gourmet meals, selected beverages, gratuities, and insightful shore excursions.",
+  title: "Contemporary River Cruising",
+  description: "Stylish ships with modern amenities and a relaxed onboard atmosphere ideal for first-time cruisers.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Contemporary Accommodations",
-  description: "Relax in elegantly appointed suites and staterooms, featuring modern amenities, panoramic views, and thoughtful touches that create a serene onboard retreat.",
+  title: "EmeraldACTIVE & DiscoverMORE",
+  description: "Offers hiking, biking, and deeper excursions for active travelers and cultural enthusiasts.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Exceptional Dining",
-  description: "Savor exquisite cuisine crafted by talented chefs, with a focus on fresh, locally sourced ingredients and a variety of dining options to suit every palate.",
+  title: "All-Inclusive Value",
+  description: "Fares include gratuities, excursions, wine with meals, and airport transfers.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Itineraries",
-  description: "Explore iconic destinations and hidden gems with thoughtfully designed itineraries that balance cultural immersion, leisure, and adventure, ensuring a memorable journey.",
+  title: "Innovative Spaces",
+  description: "Features a retractable pool area that transforms into a cinema at night.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Emerald Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
